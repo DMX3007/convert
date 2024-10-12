@@ -59,7 +59,7 @@ export default function Component({ onFilesUploaded }: { onFilesUploaded: (files
         </CardContent>
       </Card>
       <h2 className="text-2xl font-bold mb-4">Uploaded files</h2>
-      <ScrollArea className="h-[200px] rounded-md border">
+      <ScrollArea className="h-[250px] rounded-md border">
         {files.map((file) => (
           <Card key={file.id} className="mb-2 mx-2 mt-2">
             <CardContent className="flex items-center p-4">
